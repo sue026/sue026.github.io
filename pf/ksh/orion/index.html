@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오리온</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main copy.css">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script defer src="./js/main.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <!-- skip nav -->
+    <!-- <div id="skip_nav">
+      <a href="#main-menu">메인메뉴 바로가기</a>
+      <a href="#main">본문 바로가기</a>
+      <a href="#footer">푸터 메뉴 바로가기</a>
+  </div> -->
+    <header>
+            <a href="/" class="logo">
+                <img src="./img/logo.png" alt=""/>
+            </a>
+            <ul id="main-menu">
+                <li class="item">
+                    <div class="item__name">회사소개</div>
+                    <div class="item__contents">
+                        <div class="contents__bg">
+                            <ul class="inner">
+                                <li>
+                                    <a href ="#">오리온</a>
+                                    <ul>
+                                        <li><a href="#">오리온소개</a></li>
+                                        <li><a href="#">경영방침</a></li>
+                                        <li><a href="#">CI소개</a></li>
+                                        <li><a href="#">회사소개서</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href ="#">역사관</a>
+                                    <ul>
+                                        <li><a href="#">창업주인사</a></li>
+                                        <li><a href="#">연혁</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href ="#">오리온계열사</a>
+                                    <ul>
+                                        <li><a href="#">오리온농협</a></li>
+                                        <li><a href="#">오리온재단</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href ="#">위치</a>
+                                    <ul>
+                                        <li><a href="#">본사</a></li>
+                                        <li><a href="#">공장</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item__name">브랜드 소개</div>
+                    <div class="item__contents">
+                        <div class="contents__bg">
+                            <ul class="inner">
+                                <li>
+                                    <a href ="#">제과</a>
+                                    <ul>
+                                        <li><a href="#">신제품</a></li>
+                                        <li><a href="#">스낵</a></li>
+                                        <li><a href="#">파이</a></li>
+                                        <li><a href="#">초콜릿</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href ="#">마켓오 네이처</a>
+                                    <ul>
+                                        <li><a href="#">오!그래놀라</a></li>
+                                        <li><a href="#">오!그래놀라 바</a></li>
+                                        <li><a href="#">오!그래놀라 오트</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href ="#">닥터유</a>
+                                    <ul>
+                                        <li><a href="#">생수</a></li>
+                                        <li><a href="#">바/볼</a></li>
+                                        <li><a href="#">음료/파우더</a></li>
+                                        <li><a href="#">스낵</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href ="#">바이오</a>
+                                    <ul>
+                                        <li><a href="#">산둥루캉하오리요우</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item__name">투자정보</div>
+                    <div class="item__contents">
+                        <div class="contents__bg">
+                            <ul class="inner">
+                                <li>
+                                    <a href ="#">주식정보</a>
+                                    <ul>
+                                        <li><a href="#">주가정보</a></li>
+                                        <li><a href="#">주주구성</a></li>
+                                        <li><a href="#">배당정보</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href ="#">주주총회</a>
+                                </li>
+                                <li>
+                                    <a href ="#">재무정보</a>
+                                    <ul>
+                                        <li><a href="#">분기실적자료</a></li>
+                                        <li><a href="#">감사보고서</a></li>
+                                        <li><a href="#">공시</a></li>
+                                        <li><a href="#">공고</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href ="#">IR문의</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item__name">ESG경영</div>
+                    <div class="item__contents">
+                        <div class="contents__bg">
+                            <ul class="inner">
+                                <li>
+                                    <a href ="#">윤리경영</a>
+                                    <ul>
+                                        <li><a href="#">제도/시스템</a></li>
+                                        <li><a href="#">주요활동</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href ="#">환경</a>
+                                    <ul>
+                                        <li><a href="#">친환경경영</a></li>
+                                        <li><a href="#">식품안전</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href ="#">사회</a>
+                                    <ul>
+                                        <li><a href="#">사회공헌</a></li>
+                                        <li><a href="#">인권경영</a></li>
+                                        <li><a href="#">안전보건</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href ="#">기업지배구조</a>
+                                    <ul>
+                                        <li><a href="#">이사회구성</a></li>
+                                        <li><a href="#">이사회운영및규정</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item__name">홍보센터</div>
+                    <div class="item__contents">
+                        <div class="contents__bg">
+                            <ul class="inner__right">
+                                <li>
+                                    <a href ="#">유튜브</a>
+                                </li>
+                                <li>
+                                    <a href ="#">인스타그램</a>
+                                </li>
+                                <li>
+                                    <a href ="#">보도자료</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item__name">고객센터</div>
+                    <div class="item__contents">
+                        <div class="contents__bg">
+                            <ul class="inner__right">
+                                <li>
+                                    <a href="#">피해보상기구</a>
+                                    <ul>
+                                        <li><a href="#">상담접수</a></li>
+                                        <li><a href="#">접수내역조회</a></li>
+                                        <li><a href="#">자주묻는질문(FAQ)</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">피해보상기구</a>
+                                    <ul>
+                                        <li><a href="#">고객의소리</a></li>
+                                        <li><a href="#">상담내용처리과정</a></li>
+                                        <li><a href="#">보상처리과정</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item__name">
+                        <img src="./img/dr.youmall01.png" alt="">
+                    </div>
+                    <div class="item__contents">
+                        <div class="contents__bg">
+                            <ul class="inner__right">
+                                <li><a href="#">닥터유몰 바로가기</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="util">
+                <div class="search">
+                    <button type="button" id="search_open">
+                    <div class="material-symbols-outlined">search</div>
+                </div>
+                <button type="button" class="language">
+                    <div class="material-symbols-outlined">language</div>
+                </button>
+                <button type="button" class="allmenu_open">
+                    <div class="material-symbols-outlined"> menu</div>
+                </button>
+            </div>
+            <div class="search_wrap">
+            <form action="">
+                <fieldset>
+                <legend class="hide_txt">검색어입력창</legend>
+                <input type="text" placeholder="검색어를 입력하세요">
+                <button type="button" class="btn_sumbmit">
+                    <span class="hide_txt">검색하기</span>
+                </button>
+                </fieldset>
+            </form>
+            <button type="button" class="btn_search_close"> <span class="hide_txt">검색창 닫기</span></button>
+            </div>
+            <div class="allmenuWrap">
+              <ul class="allmenuList">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">브랜드 소개</a></li>
+                <li><a href="#">투자정보</a></li>
+                <li><a href="#">ESG경영</a></li>
+                <li><a href="#">홍보센터</a></li>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">닥터유 몰</a></li>
+              </ul>
+              <button class="allmenuClosed"></button>
+            </div>
+    </header>
+    <main id="main" class="index">
+    <div class="visual_wrap">
+        <!-- swiper :fading -->
+        <div class="swiper-container">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                    <img src="img/cover_img01_ghost.png" alt="Main Visual Image 1">
+                    <div class="slide-text">
+                        <h2 class="hide_txt">Slide 1</h2>
+                        <p>맛있고 품질 좋은 제품을 <br> 합리적인 가격으로 공급합니다.</p>
+                    </div>
+                </li>
+                <li class="swiper-slide">
+                    <img src="/img/cover_img02.jpg" alt="Main Visual Image 2">
+                    <div class="slide-text">
+                        <h2 class="hide_txt">Slide 2</h2>
+                        <p class="color_bk"><b class="name--blue">'닥터유'</b>는 현대인의 식습관을 고려한 <br> 맞춤 영양 설계 브랜드로 <br> 맛있는 건강을 추구합니다. </p>
+                    </div>
+                </li>
+                <li class="swiper-slide">
+                    <img src="/img/cover_img03.jpg" alt="Main Visual Image 3">
+                    <div class="slide-text">
+                        <h2 class="hide_txt">Slide 3</h2>
+                        <p class="color_bk"><b class="name--brown">'마켓오네이처'</b>는 자연원물 그대로의 <br>정직하고 건강한 맛을 담은<br>오리온의 간편식사대용식 브랜드입니다.</p>
+                    </div>
+                </li>
+                <li class="swiper-slide ">
+                    <img class="company" src="/img/cover_img04.png" alt="Main Visual Image 3">
+                    <div class="slide-text">
+                        <h2 class="hide_txt">Slide 4</h2>
+                        <p>진단키트 사업을 시작으로 백신,신약 발굴 및 개발까지<br class="space">제약/바이오 Platform 기업을 추구합니다.</p>
+                    </div>
+                </li>
+            </ul>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+    </div>
+    <section class="news">
+
+        <div class="news-line">
+            <div class="bg-left"></div>
+            <div class="bg-right"></div>
+            <div class="inner">
+
+                <div class="inner__left">
+                    <p>공지사항</p>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#">‘재미로 먹고 맛으로 먹는’ 오리온, ‘달콤치즈맛 고래밥’ 출시</a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">오리온, 2023년 연결기준 매출액 2조 9124억 원, 영업이익 492 ...</a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">오리온, 베트남국립농업대학교 농생물연구소와 전략적 업무협약 체결</a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">오리온, 레고켐바이오사이언스와 손잡고 글로벌 신약개발 바이오 사업 확장</a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">오리온, 2024년 동계 채용 연계형 인턴십 모집</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="news-line__more">
+                        <div class="material-symbols-outlined">add_circle</div>
+                    </a>
+                </div>
+
+                <div class="inner__right">
+                    <p>오리온 소식</p>
+                    <div class="toggle-promotion">
+                        <span class="material-symbols-outlined">
+                            download_2
+                            </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="promotion">
+            <!-- <h2>새롭고 활기찬 <b>오리온</b> 소식</h2> -->
+            <div class="swiper-container">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <div class="img_box">
+                          <img src="./img/news1.jpg" alt="">
+                        </div>
+                        <div class="txt-box">
+                            <p class="title">오리온, ‘핫고래밥 매콤양념맛’ 출시</p>
+                            <p class="date">2024년 12월 12일</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="img_box">
+                          <img src="./img/newproduct1.jpg" alt="">
+                        </div>
+                        <div class="txt-box">
+                            <p class="title">오리온,
+                            ‘달콤치즈맛 고래밥’ 출시</p>
+                            <p class="date">2024년 12월 12일</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                       <div class="img_box">
+                         <img src="./img/news3.jpg" alt="">
+                       </div>
+                        <div class="txt-box">
+                            <p class="title">‘마켓오네이처 오!그래놀라 오트’ 2종 출시</p>
+                            <p class="date">2024년 12월 12일</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="img_box">
+                          <img src="./img/news_2.jpg" alt="">
+                        </div>
+                        <div class="txt-box">
+                            <p class="title">오리온, 베트남국립농업대학교 <br> 농생물연구소와 전략적 업무협약 체결</p>
+                            <p class="date">2024년 12월 12일</p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                     <div class="img_box">
+                         <img src="./img/news6.jpg" alt="">
+                     </div>
+                        <div class="txt-box">
+                            <p class="title">오리온, ‘마켓오 치즈톡 달콤치즈맛’ 출시</p>
+                            <p class="date">2024년 12월 12일</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-prev">
+                <div class="material-symbols-outlined">arrow_back_ios_new</div>
+            </div>
+            <div class="swiper-next">
+                <div class="material-symbols-outlined">arrow_forward_ios</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product">
+      <h2><b>온</b> 가족이 함께 즐기는 간식</h2>
+
+      <div class="inner">
+          <div class="inner__txt">
+              <div class="swiper mySwiper2">
+                  <div class="swiper-wrapper ">
+                      <div class="swiper-slide">
+                          <span class="brand_name name--red">오리온 초코파이 情</span>
+                          <h3>국민과자를 넘은 <br> 세계인의 과자!</h3>
+                          <p>전 세계 60여국에서 연간 23억개 넘게 팔리는<br>
+                              한국을 대표하는 간식!</p>
+                          <div class="btn btn--reverse">자세히 보기</div>
+                      </div>
+                      <div class="swiper-slide">
+                          <span class="brand_name name--yellow">마켓오 치즈톡</span>
+                          <h3>단짠 치즈<br>끝판왕 탄생!</h3>
+                          <p>얇고 긴 스틱 모양으로 중독적인 단짠치즈맛<br>오도독 톡! 씹는 재미까지</p>
+                          <div class="btn btn--reverse">자세히 보기</div>
+                      </div>
+                      <div class="swiper-slide">
+                          <span class="brand_name">오!그래놀라 오트 리얼초콜릿</span>
+                          <h3>극강의 고소한 맛<br>
+                          건강한 오트 한끼</h3>
+                          <p>건강한 통귀리와 고소한 그래놀라를 담아만든 <br>마켓오네이처의 오트 전문 브랜드입니다.</p>
+                          <div class="btn btn--reverse">자세히 보기</div>
+                      </div>
+                      <div class="swiper-slide">
+                          <span class="brand_name">오!그래놀라 오트 리얼초콜릿</span>
+                          <h3>극강의 고소한 맛<br>
+                          건강한 오트 한끼</h3>
+                          <p>건강한 통귀리와 고소한 그래놀라를 담아만든 <br>마켓오네이처의 오트 전문 브랜드입니다.</p>
+                          <div class="btn btn--reverse">자세히 보기</div>
+                      </div>
+                  </div>
+              </div>
+              <!-- Add Pagination -->
+              <div class="dir_btns">
+                  <div class="swiper-prev">
+                      <div class="material-symbols-outlined">
+                        chevron_left
+                          </div>
+                  </div>
+                  <div class="swiper-next">
+                      <div class="material-symbols-outlined">
+                        chevron_right
+                          </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+              </div>
+          </div>
+          <div class="inner__img">
+              <div thumbsSlider="" class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <img src="./img/Frame 61.png" alt="초코파이이미지">
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./img/Frame 50.png" alt="치즈톡이미지">
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./img/Frame 51.png" alt="오!그래놀라리얼초콜릿">
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./img/Move.png" alt="오!그래놀라리얼초콜릿">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </section>
+
+    <section class="esg">
+      <ul class="esg_list">
+        <li class="envrionment-bg"><a href="#">
+          <div class="esg__inner">
+            <img src="./img/free-icon-letter-e-8142826.png" alt="">
+            <div class="txt_box">
+              <h3>Environment</h3>
+              <p>오리온은 환경 관련 법규를 준수하고,<br>
+                엄격한 환경관리 기준을 적용하여<br>
+                환경리스크를 철저히 예방합니다.</p>
+            </div>
+          </div>
+        </a></li>
+        <li class="social-bg"><a href="#">
+          <div class="esg__inner">
+            <img src="./img/free-icon-letter-s-8142783.png" alt="">
+            <div class="txt_box">
+              <h3>Social</h3>
+              <p>지속적인 ‘정(情) 나눔’ 사회공헌 활동을<br>
+                바탕으로 친환경/지역사회에 책임을<br>
+                다하기 위해 노력합니다. </p>
+            </div>
+          </div>
+        </a></li>
+        <li class="governance-bg"><a href="#">
+          <div class="esg__inner">
+            <img src="./img/free-icon-letter-g-8142832.png" alt="">
+            <div class="txt_box">
+              <h3>Governance</h3>
+              <p>새로운 도약을 준비하는 오리온,<br>
+                주주와 함께 더 큰 기업의<br>
+                가치를 만들어 가겠습니다. </p>
+            </div>
+          </div>
+        </a></li>
+      </ul>
+    </section>
+
+    <section class="brand">
+      <h2>맛있는 건강을 추구하는 브랜드</h2>
+      <div class="inner">
+        <ul class="brand_list">
+          <li><a href="#">
+            <img src="./img/2018070300088_0.jpg" alt="">
+              <h3>제과</h3>
+              <p>오리온의 맛으로<br>
+                세계와 소통하다</p>
+          </a></li>
+          <li><a href="#">
+              <img src="./img/k-28.png" alt="">
+              <h3>닥터유</h3>
+              <p>프리미엄 생수 브랜드의<br>
+                미래를 열다</p>
+          </a></li>
+          <li><a href="#">
+            <img src="./img/marketO_logo.png" alt="">
+            <h3>마켓오네이처</h3>
+            <p>건강 간식의 역사를<br>
+              창조하다</p>
+          </a></li>
+          <li><a href="#">
+            <img src="./img/bio_img01.jpg" alt="">
+            <h3>바이오</h3>
+            <p>제약/바이오의<br>
+              플랫폼을 추구하다</p>
+          </a></li>
+        </ul>
+      </div>
+      <div class="brand_bottom">
+        <div class="inner">
+          <p>BEST BRAND</p>
+          <a href="#">브랜드관 바로가기</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- gobal map -->
+    <section class="global_map">
+      <!-- <div class="map__left">
+        <img src="./img/main_worldmap_bg.png" alt="">
+      </div>
+      <div class="map__right">
+        <div class="inner">
+          <h2>NetWork</h2>
+          <ul class="map_list">
+            <li>
+              <img src="./img/free-icon-china-5372696.png" alt="">
+              <p>중국</p>
+              <div class="img_box">
+                <img src="./img/overseas_corp_cn_img01.jpg" alt="">
+                <img src="./img/china_orion.png" alt="">
+              </div>
+            </li>
+            <li>
+                <img src="./img/" alt="">
+              <p>러시아</p>
+              <div class="img_box">
+                <img src="./img/vietnam_orion.png" alt="">
+                <img src="./img/vietnam_orionb.jpg" alt="">
+              </div>
+            </li>
+            <li>
+              <img src="./img/free-icon-india-5372804.png" alt="">
+              <p>인도</p>
+              <div class="img_box">
+                <img src="./img/choco-pie.webp" alt="">
+                <img src="./img/DSC_34841-scaled.webp" alt="">
+              </div>
+            </li>
+            <li>
+              <img src="./img/free-icon-vietnam-5373331.png" alt="">
+              <p>베트남</p>
+              <div class="img_box">
+                <img src="./img/vietnam_orion.png" alt="">
+                <img src="./img/vietnam_orionb.jpg" alt="">
+              </div>
+            </li>
+          </ul>
+        </div>
+        </div> -->
+        <div class="wrap">
+          <div class="left_img">
+              <!-- <img src="/img/map_bg.png" alt=""> -->
+          </div>
+          <div class="list_box">
+              <h2>NetWork</h2>
+              <ul class="national_list">
+                  <li>
+                      <div class="txt_box">
+                        <img src="/img/free-icon-china-5372696.png" alt="">
+                        <p>중국</p>
+                      </div>
+                      <div class="img_box">
+                        <img src="./img/overseas_corp_cn_img01.jpg" alt="">
+                        <img src="./img/china_orion.png" alt="">
+                      </div>
+                  </li>
+                  <li>
+                    <div class="txt_box">
+                      <img src="./img/free-icon-russia-197408.png" alt="">
+                      <p>러시아</p>
+                    </div>
+                    <div class="img_box">
+                      <img src="./img/vietnam_orion.png" alt="">
+                      <img src="./img/vietnam_orionb.jpg" alt="">
+                    </div>
+                </li>
+                  <li>
+                    <div class="txt_box">
+                      <img src="./img/free-icon-india-5372804.png" alt="">
+                      <p>인도</p>
+                    </div>
+                    <div class="img_box">
+                      <img src="./img/choco-pie.webp" alt="">
+                      <img src="./img/DSC_34841-scaled.webp" alt="">
+                    </div>
+                  </li>
+                  <li>
+                    <div class="txt_box">
+                      <img src="./img/free-icon-vietnam-5373331.png" alt="">
+                      <p>베트남</p>
+                    </div>
+                    <div class="img_box">
+                      <img src="./img/vietnam_orion.png" alt="">
+                      <img src="./img/vietnam_orionb.jpg" alt="">
+                    </div>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </section>
+</main>
+
+<footer id="footer">
+  <div class="inner">
+    <div class="footer-top">
+      <div class="info">
+        <img src="./img/f_logo.png" alt="">
+        <div class="address">
+          <span class="name--white">(주)오리온 서울 용산구 백범로 90다길 13</span> 사업자등록번호 <span class="name--white"> 709-81-00727</span>    대표이사<span class="name--white">이승준</span> <br>
+        전화번호 <span class="name--white">02.710.6000</span> 고객센터 <span class="name--white">080.023.5700(수신자 부담)</span>
+        </div>
+      </div>
+
+      <div class="links">
+        <div class="footer_menu">
+          <a href="#" target="_blank">고객문의</a>
+          <a href="#" target="_blank">신규거래 제안</a>
+          <a href="#" target="_blank">채용</a>
+        </div>
+        <ul class="others">
+          <li><a href="#">법적고지</a></li>
+          <li><a href="#">개인정보처리방침</a></li>
+          <li><a href="#">이메일무단수집거부</a></li>
+          <li><a href="#">오시는 길</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      <div class="inner__right">
+        <div class="family_site">
+          <button>FAMILY SITE</button>
+          <ul class="fam_site">
+            <li><a href="#" target="#">그룹사</a>
+              <ul class="depth2">
+                  <li><a href="#" target="#">오리온홀딩스</a></li>
+                  <li><a href="#" target="#">오리온재단</a></li>
+                  <li><a href="#" target="#">쇼박스</a></li>
+                  <li><a href="#" target="#">오리온중국</a></li>
+                  <li><a href="#" target="#">오리온베트남</a></li>
+                  <li><a href="#" target="#">오리온러시아</a></li>
+                  <li><a href="#" target="#">오리온인도</a></li>
+              </ul>
+              </li>
+              <li><a href="#" target="#">브랜드</a>
+              <ul class="depth2">
+                  <li><a href="#" target="#">닥터유제주용암수</a></li>
+                  <li><a href="#" target="#">마켓오레스토랑</a></li>
+              </ul>
+              </li>
+              <li><a href="#" target="#">채용정보</a>
+              <ul class="depth2">
+                  <li><a href="#" target="#">오리온채용</a></li>
+                  <li><a href="#" target="#">영업사원채용</a></li>
+                  <li><a href="#" target="#">상생협력포털</a></li>
+              </ul>
+              </li>
+          </ul>
+        </div>
+        <ul class="sns_list">
+          <li><a href="#" target="_blank"><img src="./img/Ellipse 14.png" alt=""></a></li>
+          <li><a href="#" target="_blank"><img src="./img/Ellipse 15.png" alt=""></a></li>
+          <li><a href="#" target="_blank"><img src="./img/Ellipse 16.png" alt=""></a></li>
+          <li><a href="#" target="_blank"><img src="./img/Ellipse 17.png" alt=""></a></li>
+        </ul>
+      </div>
+      <div class="copyright">
+        &copy;COPYRIGHT ORION CORP. ALL RIGHT RESERVED.
+      </div>
+    </div>
+  </div>
+</footer>
+</div>
+<!-- fraction -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>
